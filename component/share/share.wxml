@@ -1,0 +1,4 @@
+<!--component/share/share.wxml-->
+<view>{{shareMsg}}</view>
+<view>{{innerData}}</view>
+<button bindtap="toOut">点击我更改外部数据</button>
