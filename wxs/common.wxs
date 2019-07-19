@@ -1,0 +1,26 @@
+//按长度截取字符串
+var subString = function (val, length) {
+  if (val.length == 0 || val == undefined) {
+    return;
+  }
+  if (val.length > length) {
+    return val.substring(0, length)
+  } else {
+    return val;
+  }
+}
+//按长度截取字符串
+var subStringExtend = function (val, length) {
+  if (val.length == 0 || val == undefined) {
+    return;
+  }
+  if (val.length > length) {
+    return val.substring(0, length) + '...'
+  } else {
+    return val;
+  }
+}
+module.exports = {
+  subString: subString,
+  subStringExtend: subStringExtend
+};
