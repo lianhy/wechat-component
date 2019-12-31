@@ -1,0 +1,33 @@
+<view class="loading-l1">
+  <view>loading css {{numEnum}}</view>
+  <view class="loading-l1-v1">
+    <image bindtap="reduceNum" class="loading-l1-v1-h1" src="../../images/icon-to.png"></image>
+    <view class="loading-l1-v1-h2">{{numEnum}}</view>
+    <image bindtap="addNum" class="loading-l1-v1-h3" src="../../images/icon-to.png"></image>
+  </view>
+</view>
+<view class="loading-l2">
+  <view class="loading-l2-01" wx:if="{{numEnum == 1}}"></view>
+  <view class="loading-l2-02" wx:if="{{numEnum == 2}}"></view>
+  <view class="loading-l2-03" wx:if="{{numEnum == 3}}"></view>
+  <view class="loading-l2-04" wx:if="{{numEnum == 4}}">
+    <view class="loading-l2-04-h1"></view>
+    <view class="loading-l2-04-h1"></view>
+    <view class="loading-l2-04-h1"></view>
+    <view class="loading-l2-04-h1"></view>
+  </view>
+  <view class="loading-l2-05" wx:if="{{numEnum == 5}}">
+    <view class="loading-l2-05-h1">H</view>
+    <view class="loading-l2-05-h1">e</view>
+    <view class="loading-l2-05-h1">l</view>
+    <view class="loading-l2-05-h1">l</view>
+    <view class="loading-l2-05-h1">o</view>
+  </view>
+  <view class="loading-l2-05" wx:if="{{numEnum == 6}}">
+    <view class="loading-l2-05-h2">H</view>
+    <view class="loading-l2-05-h2">e</view>
+    <view class="loading-l2-05-h2">l</view>
+    <view class="loading-l2-05-h2">l</view>
+    <view class="loading-l2-05-h2">o</view>
+  </view>
+</view>

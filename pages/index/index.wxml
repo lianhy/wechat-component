@@ -16,3 +16,9 @@
     <image class="index-t1-v1" src="../../images/icon-to.png"></image>
   </view>
 </navigator>
+<navigator url="/pages/loadingCss/loadingCss">
+  <view class="index-t1">
+    <view>loading示例</view>
+    <image class="index-t1-v1" src="../../images/icon-to.png"></image>
+  </view>
+</navigator>

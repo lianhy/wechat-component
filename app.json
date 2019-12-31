@@ -2,14 +2,16 @@
   "pages": [
     "pages/index/index",
     "pages/componentTest/componentTest",
+    "pages/loadingCss/loadingCss",
     "pages/componentCountDown/componentCountDown",
     "pages/address/address"
   ],
   "window": {
     "backgroundTextStyle": "light",
-    "navigationBarBackgroundColor": "#fff",
-    "navigationBarTitleText": "WeChat",
-    "navigationBarTextStyle": "black"
+    "navigationBarBackgroundColor": "#189de4",
+    "navigationBarTitleText": "示例",
+    "navigationBarTextStyle": "white",
+    "backgroundColor": "#fff"
   },
   "sitemapLocation": "sitemap.json"
 }
