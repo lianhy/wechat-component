@@ -20,6 +20,10 @@ Component({
   observers: {
     'shareMsg': function (newVal) {
       console.log('节点数据发生变化时执行：' + newVal)
+      var that=this
+      that.setData({
+        mag: newVal
+      })
     }
   },
   pageLifetimes: {
@@ -40,7 +44,7 @@ Component({
    * 组件的内部数据，和 properties 一同用于组件的模板渲染
    */
   data: {
-    innerData:"内部数据，外部不可更改"
+    msg:""
   },
 
   /**

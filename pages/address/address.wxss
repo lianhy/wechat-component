@@ -1,0 +1,114 @@
+page{
+  background: #f2f2f2;
+}
+.mask{
+  bottom: 0;
+  top: 0;
+  left: 0;
+  right: 0;
+  position: fixed;
+  background: rgba(0, 0, 0, 0.4);
+  z-index: 10000000000;
+}
+.address-t{
+  z-index: 10000000000;
+  background: #fff;
+  width: 750rpx;
+  height: 800rpx;
+  position: fixed;
+  bottom: 0;
+  font-size: 36rpx;
+  transition: height 10s ease-in;
+}
+.address-t1{
+  height: 80rpx;
+  border-bottom: solid 1rpx #f2f2f2;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20rpx;
+}
+.address-t1-v1{
+  font-size: 30rpx;
+}
+.address-t1-v2 image{
+  width: 40rpx;
+  height: 40rpx;
+}
+.address-t2{
+  border-bottom: solid 1rpx #f2f2f2;
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  align-items: center;
+  padding: 12rpx 20rpx;
+  font-size: 28rpx;
+}
+.address-t2-v1{
+  margin-right: 84rpx;
+  height: 60rpx;
+  padding: 5rpx 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.hove{
+  color:#2fbb6c;
+}
+.address-t2-v2{
+  height: 60rpx;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 5rpx 0;
+  border-bottom: solid 5rpx #2fbb6c;
+}
+.address-t3{
+  height: 620rpx;
+  overflow-x: hidden;
+  overflow-y: scroll;
+}
+.address-t3-v1{
+  height: 80rpx;
+  border-bottom: solid 1rpx #f2f2f2;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 0 20rpx;
+  font-size: 28rpx;
+}
+.address-f1{
+  margin-top: 15rpx;
+  background: #fff;
+  padding: 20rpx 30rpx;
+  
+}
+.address-f1-v1{
+  font-size: 30rpx;
+  color: #858585;
+  border-bottom: solid 1rpx #c2bfbe71;
+  height: 86rpx;
+  line-height: 86rpx;
+  display: flex;
+  align-items: center;
+}
+.address-f1-v1-h1{
+  width: 100%;
+}
+.address-f1-v2 {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 50rpx;
+  margin: 0rpx auto;
+  width: 600rpx;
+  height: 68rpx;
+  background: #189de4;
+  font-size: 36rpx;
+  color: #fff;
+  text-align: center;
+  line-height: 68rpx;
+  border-radius: 68rpx;
+}

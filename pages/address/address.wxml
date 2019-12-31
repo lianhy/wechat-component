@@ -1,0 +1,36 @@
+<view class="mask" wx:if="{{flag}}"></view>
+<view class="address-t" wx:if="{{flag}}">
+  <view class="address-t1">
+    <view class="address-t1-v1">请选择地区</view>
+    <view class="address-t1-v2" bindtap="hideModel">
+      <image src="../../images/xzsl_num.png" />
+    </view>
+  </view>
+  <view class="address-t2">
+    <view class="address-t2-v1" wx:if="{{address.prov}}" data-index="0" bindtap="resetAdd">{{address.prov.fullname}}</view>
+    <view class="address-t2-v1" wx:if="{{address.city}}" data-index="1" bindtap="resetAdd">{{address.city.fullname}}</view>
+    <view class="address-t2-v1" wx:if="{{address.direct}}" data-index="2" bindtap="resetAdd">{{address.direct.fullname}}</view>
+    <view class="address-t2-v2 hove" wx:if="{{chose <=2 && address.direct == null}}">请选择</view>
+  </view>
+  <view class="address-t3">
+    <view class="address-t3-v1" wx:for="{{addressData}}" data-index="{{index}}" bindtap="choseAdd">{{item.fullname}}</view>
+  </view>
+</view>
+<form bindsubmit="formSubmit">
+<view class="address-f1">
+  <view class="address-f1-v1">
+    <input class="address-f1-v1-h1" placeholder="收货人" placeholder-style='color:#858585'></input>
+  </view>
+  <view class="address-f1-v1">
+    <input class="address-f1-v1-h1" placeholder="手机号码" placeholder-style='color:#858585'></input>
+  </view>
+  <view class="address-f1-v1" bindtap="showModel">
+    <input class="address-f1-v1-h1" placeholder="所在地区" placeholder-style='color:#858585' value="{{pcd}}" disabled="true"></input>
+  </view>
+  <view class="address-f1-v1">
+    <input class="address-f1-v1-h1" placeholder="详细地址" placeholder-style='color:#858585'></input>
+  </view>
+  <button class='address-f1-v2' form-type="submit">保存</button>
+</view>
+</form>
+<component-loading loading="{{loading}}"></component-loading>

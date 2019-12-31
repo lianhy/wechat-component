@@ -1,0 +1,6 @@
+<!-- 组件内部 遵循驼峰规则 引用页面外部使用"-"连接 -->
+<component-share bindintoout="changePageMsg" share-msg="{{shareMsg}}"></component-share>
+<view class="share-t1">
+  <view class="share-t1-v1" bindtap="changeCompMsg">页面触发组件函数</view>
+  <view class="share-t1-v2">{{shareMsg2}}</view>
+</view>

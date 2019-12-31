@@ -1,1 +1,18 @@
-/**index.wxss**/
+.index-t1{
+  height: 80rpx;
+  padding: 0 20rpx;
+  margin-top: 15rpx;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #fff;
+  font-size: 30rpx;
+  color: #858585;
+}
+.index-t1-v1{
+  width: 18rpx;
+  height: 30rpx;
+}
+page{
+  background: #f5f5f5;
+}

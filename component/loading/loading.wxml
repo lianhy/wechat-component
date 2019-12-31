@@ -1,0 +1,8 @@
+<view class="loading" wx:if="{{flag}}">
+  <view class="load-t1">
+    <view class="load-t1-v1"></view>
+    <view class="load-t1-v2"></view>
+    <view class="load-t1-v3"></view>
+    <view class="load-t1-v4"></view>
+  </view>
+</view>

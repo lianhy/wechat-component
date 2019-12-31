@@ -19,7 +19,7 @@ function getCurrentPageUrl() {
   return url
 }
 module.exports = {
-  phone: phone,
+  mobile: mobile,
   notEmpty: notEmpty,
   getCurrentPageUrl: getCurrentPageUrl
 }
