@@ -10,3 +10,9 @@
     <image class="index-t1-v1" src="../../images/icon-to.png"></image>
   </view>
 </navigator>
+<navigator url="/pages/componentCountDown/componentCountDown">
+  <view class="index-t1">
+    <view>倒计时示例</view>
+    <image class="index-t1-v1" src="../../images/icon-to.png"></image>
+  </view>
+</navigator>

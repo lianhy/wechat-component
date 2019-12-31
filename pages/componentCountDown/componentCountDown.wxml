@@ -1,0 +1,12 @@
+<view class="time-t1">
+  <view>基础用法</view>
+  <view>
+    <component-countdown count-seconds="{{countSeconds}}"></component-countdown>
+  </view>
+</view>
+<view class="time-t1">
+  <view>自定义格式</view>
+  <view>
+    <component-countdown count-time-seconds="{{countTimeSeconds}}"></component-countdown>
+  </view>
+</view>

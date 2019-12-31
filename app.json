@@ -2,6 +2,7 @@
   "pages": [
     "pages/index/index",
     "pages/componentTest/componentTest",
+    "pages/componentCountDown/componentCountDown",
     "pages/address/address",
     "pages/logs/logs"
   ],
